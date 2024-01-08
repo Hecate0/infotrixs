@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+}
+.wrapper{
+    width: 605px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 35px 35px 30px;
+}
+.wrapper header{
+    text-align: center;
+    font-weight: 600;
+    font-size: 35px;
+}
+.wrapper .content{
+    margin: 35px 0;
+}
+.wrapper .quote-area{
+    display: flex;
+    justify-content: center;
+}
+.quote-area i{
+    font-size: 15px;
+}
+.quote-area i:first-child{
+    margin: 3px 10px 0 0;
+}
+.quote-area i:last-child{
+    display: flex;
+    align-items: flex-end;
+    margin:0 0 3px 10px
+}
+.quote-area .quote{
+    font-size: 22px;
+    text-align: center;
+    word-break: break-all;
+}
+.content .author{
+    display: flex;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+.author span:first-child{
+    margin: -7px 5px 0 0;
+}
+.wrapper .buttons{
+    border-top: 1px solid grey;
+}
+.buttons .features{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.features ul{
+    display: flex;
+    margin-bottom: 20px;
+}
+.features ul li{
+    list-style: none;
+    margin:0 5px;
+    height: 47px;
+    width: 47px;
+    display: flex;
+    border-radius: 50%;
+    border:2px solid grey;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.1s ease;
+}
+.features ul li:hover{
+    color: white;
+    background: black;
+}
+.features button{
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    font-style: 16px;
+    padding: 13px 22px;
+    border-radius: 30px;
+    background: black;
+}
+button .loading{
+    opacity: 0.5;
+    pointer-events: none;
+}
+.sbutton{
+    border: none;
+    outline: none;
+    color: white;
+    cursor:pointer;
+    font-style: 16px;
+    padding: 13px 22px;
+    border-radius: 30px;
+    background: black;
+}
+.input{
+    color: black;
+    background: white;
+    font-style: 10px;
+    padding: 13px 22px;
+    border-radius: 10px;
+    border-color: black;
+}
+.name{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
